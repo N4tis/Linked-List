@@ -26,7 +26,7 @@ new_data node's data.
 @returns
 Allocated new node.
 */
-void *create_node(void *new_data);
+node_t* create_node(void *new_data);
 /*
 Inserts a new allocated node to the beginning of the linked list.
 @param
